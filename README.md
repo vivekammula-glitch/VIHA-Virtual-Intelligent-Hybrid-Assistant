@@ -1,2 +1,4 @@
-# VIHA-Virtual-Intelligent-Hybrid-Assistant
-VIHA is an AI learning web app that turns a topic and time limit into a complete class. Gemini writes notes, YouTube supplies the lesson video, and an AI tutor answers doubts. Quizzes appear every 10 minutes, are AI-graded, and weak concepts are used to rewrite the notes, while a dashboard tracks progress. Built with React and Vite.
+# VIHA
+1. `npm install`
+2. Copy `.env.example` to `.env` and add your XAI_API_KEY (and optionally VITE_YOUTUBE_API_KEY)
+3. `npm run dev` and open http://localhost:5173
