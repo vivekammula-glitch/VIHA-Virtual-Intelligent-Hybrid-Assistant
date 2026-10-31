@@ -1,0 +1,10 @@
+.mid{display:flex;flex-direction:column;gap:16px;height:calc(100vh - 190px)}
+.mid .chatbox{flex:1;min-height:220px;display:flex;flex-direction:column}
+.msgs{flex:1;overflow:auto;margin:8px 0}
+.msgs p{margin:6px 0;padding:6px 10px;border-radius:10px;background:#f1ece0;max-width:90%}
+.msgs p.user{background:var(--g1);color:#fff;margin-left:auto}
+.timer{font-size:12px;color:var(--muted);margin-bottom:8px}
+.status{background:#e8f1ec;border-radius:8px;padding:6px 12px;margin:10px 0;font-size:12px}
+.qround{border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
+.tag{font-size:11px;background:#d9efe0;border-radius:99px;padding:2px 8px;margin-left:8px}
+@media(max-width:900px){.mid{height:auto}}
